@@ -1,0 +1,135 @@
+/* styles.css */
+
+/* Body Styles */
+body {
+    background-color: #e1eefb;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #343a40;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin: 20px;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+}
+
+header p {
+    font-family: Arial, sans-serif;
+}
+
+/* Resume Section */
+#resume {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Profile Picture */
+#resume img {
+    width: 20%;
+}
+
+/* Resume Section Titles */
+#resume h2 {
+    font-family: Georgia, serif;
+    color: #343a40;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Back to Top Button */
+a[href="#top"] {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Resume List Styles */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul ul {
+    list-style-type: circle;
+}
+
+/* Game Section */
+#game {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border: 2px solid #343a40;
+    border-radius: 8px;
+}
+
+#game-container {
+    margin-top: 10px;
+}
+
+#guess-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+#submit-guess {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#submit-guess:hover {
+    background-color: #45a049;
+}
+
+#game-feedback {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #343a40;
+}
+
+#guess-count {
+    margin-top: 5px;
+    font-size: 14px;
+    color: gray;
+}
